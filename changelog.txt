@@ -1,0 +1,29 @@
+Newest changes placed at top of file
+####################################
++Fixed link 8
+
++Fixed Regex Error with link 7
+
++Fixed link 7
+
++ added assets/images/rick.gif
+
++Fixed link 6
+
++Fixed link 4
+
++Adjusted method for link 6
+
++Adjusted routes.php for link 6
+
++Fixed link 6
+
++Fixed link 5
+
++updated routes.php for wildcard routing
+
++Created last/Welcome.php
+
++Created First.php 
+
++Created changelog.txt
