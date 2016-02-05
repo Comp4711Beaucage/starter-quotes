@@ -11,7 +11,8 @@ class Wise extends Application {
          * item in quotes
          */
         
-        function bingo(){
+        function bingo()
+        {
             $this->data['pagebody'] = 'justone';
             $source = $this->quotes->get(6);
             $this->data['who'] = $source['who'];
