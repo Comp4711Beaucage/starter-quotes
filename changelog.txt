@@ -1,5 +1,11 @@
 Newest changes placed at top of file
 ####################################
++Fixed link 8
+
++Fixed Regex Error with link 7
+
++Fixed link 7
+
 + added assets/images/rick.gif
 
 +Fixed link 6
