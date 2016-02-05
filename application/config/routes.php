@@ -46,7 +46,7 @@ $route['lock/:any/:any'] = "welcome/shucks";
 $route['show/(:num)']="First/gimme/$1";
 $route['last'] = 'last/welcome';
 $route['(^[a-zA-Z]{4})/bingo'] = "bingo";
-//$route['wise/bingo'] = "bingo";
+$route['(^comp[0-9]{4})/(.*)'] = "wise/bingo";
 
 //exectures a function that displays a gif
 $route['dunno'] = function()
