@@ -21,6 +21,7 @@ class First extends Application {
 
 	}
         
+        //Function for wildcard route 'sleep'
         function zzz()
         {
             $this->data['pagebody'] = 'justone';
@@ -31,6 +32,8 @@ class First extends Application {
             $this->render();
         }
         
+        //Function for wildcard route /show/*
+        //@param $id: Wildcard # match from *, calls id from mock DB
         function gimme($id)
         {
             $this->data['pagebody'] = 'justone';
