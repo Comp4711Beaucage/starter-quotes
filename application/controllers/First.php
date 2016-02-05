@@ -21,8 +21,8 @@ class First extends Application {
 
 	}
         
-        function zzz(){
-            
+        function zzz()
+        {
             $this->data['pagebody'] = 'justone';
             $source = $this->quotes->get(1);
             $this->data['who'] = $source['who'];
@@ -31,7 +31,8 @@ class First extends Application {
             $this->render();
         }
         
-        function gimme($id){
+        function gimme($id)
+        {
             $this->data['pagebody'] = 'justone';
             $source = $this->quotes->get($id);
             $this->data['who'] = $source['who'];
