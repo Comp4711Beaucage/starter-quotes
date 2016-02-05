@@ -33,7 +33,7 @@ class Welcome extends Application {
 
 		$this->render();
 	}
-        
+        //Function for the wildcard route lock/*/*
         function shucks()
         {
             $this->data['pagebody'] = 'justone';

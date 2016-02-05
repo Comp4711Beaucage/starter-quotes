@@ -38,17 +38,20 @@
 |
 */
 
-
+//Default routing
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
+//Wildcard routing
 $route['sleep']= 'First/zzz';
 $route['lock/:any/:any'] = "welcome/shucks";
 $route['show/(:num)']="First/gimme/$1";
+//Standard routing
 $route['last'] = 'last/welcome';
+//Regex Routing
 $route['(^[a-zA-Z]{4})/bingo'] = "bingo";
 $route['(^comp[0-9]{4})/(.*)'] = "wise/bingo";
 
-//exectures a function that displays a gif
+//executes a function that displays a gif using Callback routing
 $route['dunno'] = function()
     {
         $source = './assets/images/rick.gif'; // an image you provide
